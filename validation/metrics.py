@@ -4,7 +4,7 @@ validation/metrics.py
 Model validation covering all three dimensions:
 
     1. DISCRIMINATION — can the model rank goods from bads?
-       Gini coefficient (= 2×AUC - 1)
+       Gini coefficient (= 2 x AUC - 1)
        KS statistic (max separation of score distributions)
 
     2. CALIBRATION — are predicted PDs accurate in absolute terms?
